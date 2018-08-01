@@ -1,14 +1,19 @@
 {
-  "name": "modern_portfolio",
-  "version": "1.0.0",
-  "description": "Responsive Portfolio Website",
-  "main": "index.js",
-  "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
-  },
-  "author": "Jerry Hsieh",
-  "license": "MIT",
-  "devDependencies": {
-    "node-sass": "^4.9.2"
-  }
+    "name": "modern_portfolio",
+    "version": "1.0.0",
+    "description": "Responsive Portfolio Website",
+    "main": "index.js",
+    "homepage": "https://jerryhsieh.github.io/modern_profolio",
+    "scripts": {
+        "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+        "deploy": "gh-pages -d dist"
+    },
+    "author": "Jerry Hsieh",
+    "license": "MIT",
+    "devDependencies": {
+        "node-sass": "^4.9.2"
+    },
+    "dependencies": {
+        "gh-pages": "^1.2.0"
+    }
 }
